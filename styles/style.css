@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    background-color: #225959;
+}
+.allignment{
+    width: 80%;
+    margin: 0 auto;
+}
+.hearder_main{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.logo{
+   font-weight: bold;
+   font-style: italic;
+   padding: 5px;
+   margin: 5px;
+   font-size: 20px;
+}
+.navbar_main>.items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.li_items{
+    margin: 5px;
+    padding: 5px;  
+}
+.li_items>a{
+    color: white;
+}
